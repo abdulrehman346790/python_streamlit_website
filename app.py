@@ -6,6 +6,7 @@ page = st.sidebar.radio("Go to", ["Home", "About", "Contact"])
 if page == "Home":
     st.title("🌟 Welcome to my streamlit website!")
     st.write("This is a simple website built with streamlit.")
+    st.caption("Developed By Abdul Rehman")
 
     name = st.text_input("What's your name?")
     if st.button("Say Hello"):
